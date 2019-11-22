@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Amor_Viviente_Vistas" targetNamespace="http://tempuri.org/Amor_Viviente_Vistas.xsd" xmlns:mstns="http://tempuri.org/Amor_Viviente_Vistas.xsd" xmlns="http://tempuri.org/Amor_Viviente_Vistas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Amor_VivienteConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Amor_VivienteConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Amor_Viviente.My.MySettings.GlobalReference.Default.Amor_VivienteConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Grupos_dispTableAdapter" GeneratorDataComponentClassName="Grupos_dispTableAdapter" Name="Grupos_disp" UserDataComponentName="Grupos_dispTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Amor_VivienteConnectionString (MySettings)" DbObjectName="Amor_Viviente.dbo.Grupos_disp" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT GrpCod, GrpNom FROM dbo.Grupos_disp</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="GrpCod" DataSetColumn="GrpCod" />
+              <Mapping SourceColumn="GrpNom" DataSetColumn="GrpNom" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Amor_Viviente_Vistas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Amor_Viviente_Vistas" msprop:Generator_UserDSName="Amor_Viviente_Vistas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Grupos_disp" msprop:Generator_TableClassName="Grupos_dispDataTable" msprop:Generator_TableVarName="tableGrupos_disp" msprop:Generator_TablePropName="Grupos_disp" msprop:Generator_RowDeletingName="Grupos_dispRowDeleting" msprop:Generator_RowChangingName="Grupos_dispRowChanging" msprop:Generator_RowEvHandlerName="Grupos_dispRowChangeEventHandler" msprop:Generator_RowDeletedName="Grupos_dispRowDeleted" msprop:Generator_UserTableName="Grupos_disp" msprop:Generator_RowChangedName="Grupos_dispRowChanged" msprop:Generator_RowEvArgName="Grupos_dispRowChangeEvent" msprop:Generator_RowClassName="Grupos_dispRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GrpCod" msprop:Generator_ColumnVarNameInTable="columnGrpCod" msprop:Generator_ColumnPropNameInRow="GrpCod" msprop:Generator_ColumnPropNameInTable="GrpCodColumn" msprop:Generator_UserColumnName="GrpCod" type="xs:int" />
+              <xs:element name="GrpNom" msprop:Generator_ColumnVarNameInTable="columnGrpNom" msprop:Generator_ColumnPropNameInRow="GrpNom" msprop:Generator_ColumnPropNameInTable="GrpNomColumn" msprop:Generator_UserColumnName="GrpNom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Grupos_disp" />
+      <xs:field xpath="mstns:GrpCod" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,600 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AmorViviente
+</name>
+</assembly>
+<members>
+<member name="T:Amor_Viviente.Amor_Viviente_Vistas.Grupos_dispDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_Viviente_Vistas.Grupos_dispRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_Viviente_Vistas.Grupos_dispRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_Viviente_Vistas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_Viviente_VistasTableAdapters.Grupos_dispTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amor_Viviente.Amor_Viviente_Vistas,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager.UpdateInsertedRows(Amor_Viviente.Amor_Viviente_Vistas,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager.UpdateDeletedRows(Amor_Viviente.Amor_Viviente_Vistas,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager.UpdateAll(Amor_Viviente.Amor_Viviente_Vistas)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amor_Viviente.Amor_Viviente_VistasTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_DiezmosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_OfrendaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Sec_Mostrar_CBXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Grp_MostrarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_MembresiaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_entradasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_salidasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_capitalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Diezmos_MDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_DiezmosSXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_DiezmosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_OfrendaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Sec_Mostrar_CBXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Grp_MostrarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_MembresiaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_entradasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_salidasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_capitalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Diezmos_MRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_DiezmosSXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_DiezmosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_OfrendaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Sec_Mostrar_CBXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Grp_MostrarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_MembresiaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_entradasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_salidasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Egresos_capitalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_Diezmos_MRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1.Reportes_DiezmosSXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_DiezmosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_OfrendaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Sec_Mostrar_CBXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Grp_MostrarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_MembresiaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_Egresos_entradasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_Egresos_salidasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_Egresos_capitalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_Diezmos_MTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_DiezmosSXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Amor_Viviente.Amor_VivienteDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Amor_Viviente.Amor_VivienteDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Amor_Viviente.Amor_VivienteDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager.UpdateAll(Amor_Viviente.Amor_VivienteDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources._107260">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources._13297">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources._32325">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources._56238">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.Alerta_Roja">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.arrow">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.arrow2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.av">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.azul_fecha_1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.azul_fecha_2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.computer_1331579_960_720">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.flecha_blanca_1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.fondo_2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.fondo_4">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.fondo_5">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.Grupos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.icon9_e1491410610638">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.imagen_sin_fondo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.logo_sin_detalles_">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.minimizar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.orig_720177">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.Reporte">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.the_wheat_2354260_960_720">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Amor_Viviente.My.Resources.Resources.Usuario">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Amor_Viviente.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.BitacoraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.DiezmosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.EgresosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.gruposDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.MiembrosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.OfrendasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.SectoresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.UsuariosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.ZonasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.IngresarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.Mbr_MostrarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.rptDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.BitacoraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.DiezmosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.EgresosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.gruposRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.MiembrosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.OfrendasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.SectoresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.UsuariosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.ZonasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.IngresarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.Mbr_MostrarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.rptRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.BitacoraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.DiezmosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.EgresosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.gruposRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.MiembrosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.OfrendasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.SectoresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.UsuariosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.ZonasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.IngresarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.Mbr_MostrarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet.rptRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.BitacoraTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.DiezmosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.EgresosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.gruposTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.MiembrosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.OfrendasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.SectoresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.UsuariosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.ZonasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.IngresarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.Mbr_MostrarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.rptTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amor_Viviente.Amor_VivienteDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Amor_Viviente.Amor_VivienteDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Amor_Viviente.Amor_VivienteDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager.UpdateAll(Amor_Viviente.Amor_VivienteDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amor_Viviente.Amor_VivienteDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

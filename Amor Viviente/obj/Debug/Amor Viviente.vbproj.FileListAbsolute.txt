@@ -1,0 +1,73 @@
+D:\Doc U\POO\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.exe.config
+D:\Doc U\POO\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.exe
+D:\Doc U\POO\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.pdb
+D:\Doc U\POO\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.xml
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Resources.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.vbproj.GenerateResource.Cache
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.exe
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.xml
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.pdb
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.vbprojResolveAssemblyReference.cache
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Login.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Inicio.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Membresia_Add.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Membresia_Mod.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Usr_Nuevo.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Grupos_Ingreso.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Diezmos.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Ofrendas.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Grupos_Zonas_Sectores.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.cambio_contraseña.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\RdlCompile.cache
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\RdlCompile.compiled
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Ofr.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.rbi.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Mbr.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Egr.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Eliminar__Usuario.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Eliminar_usuario.resources
+D:\Doc U\POO\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.bitacora.resources
+E:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.exe.config
+E:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.exe
+E:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.xml
+E:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.pdb
+D:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.exe.config
+D:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.exe
+D:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.xml
+D:\Iglesia Amor viviente\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.pdb
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.exe.config
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.exe
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.pdb
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\bin\Debug\Amor Viviente.xml
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.vbprojResolveAssemblyReference.cache
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.bitacora.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.cambio_contraseña.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.rbi.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Eliminar__Usuario.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Eliminar_usuario.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Ofrendas.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Grupos_Ingreso.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Inicio.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Login.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Membresia_Add.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Membresia_Mod.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Resources.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Diezmos.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Egr.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Mbr.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Ofr.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Usr_Nuevo.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.vbproj.GenerateResource.Cache
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.exe
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.xml
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor Viviente.pdb
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\RdlCompile.cache
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\RdlCompile.compiled
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.ModalDiezmos.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_miembro.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.ModalOfrendas.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_miembro_Sx.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Ofr_Sx.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_Sx.resources

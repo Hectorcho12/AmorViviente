@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EDDC88D-E4AC-42BF-B8BF-9CFFCD732861}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Amor_Viviente.My.MyApplication</StartupObject>
+    <RootNamespace>Amor_Viviente</RootNamespace>
+    <AssemblyName>Amor Viviente</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Amor Viviente.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Amor Viviente.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Amor_VivienteDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amor_VivienteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amor_VivienteDataSet.vb">
+      <DependentUpon>Amor_VivienteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amor_VivienteDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amor_VivienteDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amor_VivienteDataSet1.vb">
+      <DependentUpon>Amor_VivienteDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Amor_Viviente_Vistas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Amor_Viviente_Vistas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacora.Designer.vb">
+      <DependentUpon>Bitacora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cambio_contraseña.Designer.vb">
+      <DependentUpon>cambio_contraseña.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cambio_contraseña.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conexiones.vb" />
+    <Compile Include="Egresos.Designer.vb">
+      <DependentUpon>Egresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Egresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar _grupos.Designer.vb">
+      <DependentUpon>Eliminar _grupos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar _grupos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_usuario.Designer.vb">
+      <DependentUpon>Eliminar_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModalDiezmos.Designer.vb">
+      <DependentUpon>ModalDiezmos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModalDiezmos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModalOfrendas.Designer.vb">
+      <DependentUpon>ModalOfrendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModalOfrendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ofrendas.Designer.vb">
+      <DependentUpon>Ofrendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ofrendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Dez.Designer.vb">
+      <DependentUpon>Rpt_Dez.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grupos_Ingreso.Designer.vb">
+      <DependentUpon>Grupos_Ingreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grupos_Ingreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.vb">
+      <DependentUpon>Inicio.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Membresia_Add.Designer.vb">
+      <DependentUpon>Membresia_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Membresia_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Membresia_Mod.Designer.vb">
+      <DependentUpon>Membresia_Mod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Membresia_Mod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Miembros.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Diezmos.Designer.vb">
+      <DependentUpon>Diezmos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Diezmos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Dez_miembro.Designer.vb">
+      <DependentUpon>Rpt_Dez_miembro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez_miembro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Dez_miembro_Sx.Designer.vb">
+      <DependentUpon>Rpt_Dez_miembro_Sx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez_miembro_Sx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Dez_Sx.Designer.vb">
+      <DependentUpon>Rpt_Dez_Sx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez_Sx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Egr.Designer.vb">
+      <DependentUpon>Rpt_Egr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Egr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Mbr.Designer.vb">
+      <DependentUpon>Rpt_Mbr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Mbr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Ofr.Designer.vb">
+      <DependentUpon>Rpt_Ofr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Ofr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Ofr_Sx.Designer.vb">
+      <DependentUpon>Rpt_Ofr_Sx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Ofr_Sx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usr_Nuevo.Designer.vb">
+      <DependentUpon>Usr_Nuevo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usr_Nuevo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validaciones.vb" />
+    <Compile Include="Variables globales.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bitacora.resx">
+      <DependentUpon>Bitacora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cambio_contraseña.resx">
+      <DependentUpon>cambio_contraseña.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Egresos.resx">
+      <DependentUpon>Egresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar _grupos.resx">
+      <DependentUpon>Eliminar _grupos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_usuario.resx">
+      <DependentUpon>Eliminar_usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModalDiezmos.resx">
+      <DependentUpon>ModalDiezmos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModalOfrendas.resx">
+      <DependentUpon>ModalOfrendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ofrendas.resx">
+      <DependentUpon>Ofrendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_Ofrenda_Sx.rdlc" />
+    <EmbeddedResource Include="Report_Diezmos_miembro.rdlc" />
+    <EmbeddedResource Include="Report_Diezmo_miembro_Sx.rdlc" />
+    <EmbeddedResource Include="Report_Diezmo_Sx.rdlc" />
+    <EmbeddedResource Include="Report_Egresos.rdlc" />
+    <EmbeddedResource Include="Report_Membresia.rdlc" />
+    <EmbeddedResource Include="Report_Ofrenda.rdlc" />
+    <EmbeddedResource Include="Rpt_Dez.resx">
+      <DependentUpon>Rpt_Dez.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grupos_Ingreso.resx">
+      <DependentUpon>Grupos_Ingreso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Membresia_Add.resx">
+      <DependentUpon>Membresia_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Membresia_Mod.resx">
+      <DependentUpon>Membresia_Mod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diezmos.resx">
+      <DependentUpon>Diezmos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Diezmos.rdlc" />
+    <EmbeddedResource Include="Rpt_Dez_miembro.resx">
+      <DependentUpon>Rpt_Dez_miembro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Dez_miembro_Sx.resx">
+      <DependentUpon>Rpt_Dez_miembro_Sx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Dez_Sx.resx">
+      <DependentUpon>Rpt_Dez_Sx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Egr.resx">
+      <DependentUpon>Rpt_Egr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Mbr.resx">
+      <DependentUpon>Rpt_Mbr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Ofr.resx">
+      <DependentUpon>Rpt_Ofr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Ofr_Sx.resx">
+      <DependentUpon>Rpt_Ofr_Sx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usr_Nuevo.resx">
+      <DependentUpon>Usr_Nuevo.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Amor_VivienteDataSet.xsc">
+      <DependentUpon>Amor_VivienteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Amor_VivienteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amor_VivienteDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amor_VivienteDataSet.xss">
+      <DependentUpon>Amor_VivienteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Amor_VivienteDataSet1.xsc">
+      <DependentUpon>Amor_VivienteDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Amor_VivienteDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amor_VivienteDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amor_VivienteDataSet1.xss">
+      <DependentUpon>Amor_VivienteDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Amor_Viviente_Vistas.xsc">
+      <DependentUpon>Amor_Viviente_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="Amor_Viviente_Vistas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Amor_Viviente_Vistas.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Amor_Viviente_Vistas.xss">
+      <DependentUpon>Amor_Viviente_Vistas.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo sin detalles..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen sin fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orig_720177.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13297.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\107260.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-1331579_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-wheat-2354260_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon9-e1491410610638.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56238.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha blanca 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul fecha 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul fecha 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alerta_Roja.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
