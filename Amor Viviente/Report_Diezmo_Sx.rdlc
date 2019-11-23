@@ -49,8 +49,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>2.88258cm</Top>
-        <Left>8.42401cm</Left>
+        <Top>2.58617cm</Top>
+        <Left>6.05162cm</Left>
         <Height>0.6cm</Height>
         <Width>5.24224cm</Width>
         <Style>
@@ -125,8 +125,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>1.12434cm</Top>
-        <Left>3.46338cm</Left>
+        <Top>0.82793cm</Top>
+        <Left>2.96478cm</Left>
         <Height>1.36137cm</Height>
         <Width>12.36485cm</Width>
         <ZIndex>1</ZIndex>
@@ -144,8 +144,8 @@
         <Source>Embedded</Source>
         <Value>ID8461848_orig</Value>
         <Sizing>FitProportional</Sizing>
-        <Top>1.12434cm</Top>
-        <Left>1.21093cm</Left>
+        <Top>0.82793cm</Top>
+        <Left>0.71233cm</Left>
         <Height>1.36137cm</Height>
         <Width>3.19333cm</Width>
         <ZIndex>2</ZIndex>
@@ -156,10 +156,10 @@
         </Style>
       </Image>
       <Line Name="Line2">
-        <Top>3.77899cm</Top>
-        <Left>1.96698cm</Left>
+        <Top>3.48258cm</Top>
+        <Left>1.46838cm</Left>
         <Height>0cm</Height>
-        <Width>15.63926cm</Width>
+        <Width>13.86125cm</Width>
         <ZIndex>3</ZIndex>
         <Style>
           <Border>
@@ -202,7 +202,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nombre</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -233,7 +235,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Zona</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -264,7 +268,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Sector</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -295,7 +301,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Grupo</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -326,7 +334,9 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Cantidad</Value>
-                              <Style />
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -365,7 +375,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Nombre</rd:DefaultName>
@@ -395,7 +407,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Zona</rd:DefaultName>
@@ -425,7 +439,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Sector</rd:DefaultName>
@@ -455,7 +471,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Grupo</rd:DefaultName>
@@ -485,7 +503,9 @@
                               <Style />
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Cantidad</rd:DefaultName>
@@ -526,8 +546,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>4.75403cm</Top>
-        <Left>2.38684cm</Left>
+        <Top>4.45762cm</Top>
+        <Left>1.38964cm</Left>
         <Height>1.2cm</Height>
         <Width>13.86125cm</Width>
         <ZIndex>4</ZIndex>
@@ -538,10 +558,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>4.20833in</Height>
+    <Height>2.575in</Height>
     <Style />
   </Body>
-  <Width>7.40833in</Width>
+  <Width>6.51666in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>

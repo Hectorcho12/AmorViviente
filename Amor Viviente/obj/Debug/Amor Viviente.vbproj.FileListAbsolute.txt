@@ -71,3 +71,7 @@ C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\
 C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_miembro_Sx.resources
 C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Ofr_Sx.resources
 C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_Sx.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_Zona.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_Zona_Sx.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_miem.resources
+C:\Users\hecto\Downloads\A.V final-20190103T182906Z-001\A.V final\Amor Viviente\Amor Viviente\obj\Debug\Amor_Viviente.Rpt_Dez_miem_Sx.resources

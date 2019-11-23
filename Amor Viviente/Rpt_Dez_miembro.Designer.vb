@@ -42,7 +42,7 @@ Partial Class Rpt_Dez_miembro
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "Amor_Viviente.Report_Diezmos_miembro.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(938, 0)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(961, 661)
+        Me.ReportViewer1.Size = New System.Drawing.Size(961, 675)
         Me.ReportViewer1.TabIndex = 22
         '
         'dgvmiembros
@@ -152,7 +152,7 @@ Partial Class Rpt_Dez_miembro
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CadetBlue
-        Me.ClientSize = New System.Drawing.Size(1899, 661)
+        Me.ClientSize = New System.Drawing.Size(1899, 675)
         Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.hasta)

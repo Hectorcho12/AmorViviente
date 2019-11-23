@@ -23,7 +23,9 @@ Partial Class Rpt_Dez_Sx
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ReportDataSource2 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Me.Reportes_DiezmosSXBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Amor_VivienteDataSet1 = New Amor_Viviente.Amor_VivienteDataSet1()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.cbxsector = New System.Windows.Forms.TextBox()
         Me.cbxzona = New System.Windows.Forms.TextBox()
@@ -35,13 +37,21 @@ Partial Class Rpt_Dez_Sx
         Me.desde = New System.Windows.Forms.DateTimePicker()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.Amor_VivienteDataSet1 = New Amor_Viviente.Amor_VivienteDataSet1()
-        Me.Reportes_DiezmosSXBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.Reportes_DiezmosSXTableAdapter = New Amor_Viviente.Amor_VivienteDataSet1TableAdapters.Reportes_DiezmosSXTableAdapter()
-        Me.GroupBox1.SuspendLayout()
-        CType(Me.Amor_VivienteDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Reportes_DiezmosSXBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Amor_VivienteDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'Reportes_DiezmosSXBindingSource
+        '
+        Me.Reportes_DiezmosSXBindingSource.DataMember = "Reportes_DiezmosSX"
+        Me.Reportes_DiezmosSXBindingSource.DataSource = Me.Amor_VivienteDataSet1
+        '
+        'Amor_VivienteDataSet1
+        '
+        Me.Amor_VivienteDataSet1.DataSetName = "Amor_VivienteDataSet1"
+        Me.Amor_VivienteDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'GroupBox1
         '
@@ -154,24 +164,14 @@ Partial Class Rpt_Dez_Sx
         'ReportViewer1
         '
         Me.ReportViewer1.Dock = System.Windows.Forms.DockStyle.Right
-        ReportDataSource2.Name = "DataSet1"
-        ReportDataSource2.Value = Me.Reportes_DiezmosSXBindingSource
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource2)
+        ReportDataSource1.Name = "DataSet1"
+        ReportDataSource1.Value = Me.Reportes_DiezmosSXBindingSource
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "Amor_Viviente.Report_Diezmo_Sx.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(813, 0)
         Me.ReportViewer1.Name = "ReportViewer1"
         Me.ReportViewer1.Size = New System.Drawing.Size(1086, 661)
         Me.ReportViewer1.TabIndex = 12
-        '
-        'Amor_VivienteDataSet1
-        '
-        Me.Amor_VivienteDataSet1.DataSetName = "Amor_VivienteDataSet1"
-        Me.Amor_VivienteDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'Reportes_DiezmosSXBindingSource
-        '
-        Me.Reportes_DiezmosSXBindingSource.DataMember = "Reportes_DiezmosSX"
-        Me.Reportes_DiezmosSXBindingSource.DataSource = Me.Amor_VivienteDataSet1
         '
         'Reportes_DiezmosSXTableAdapter
         '
@@ -187,10 +187,11 @@ Partial Class Rpt_Dez_Sx
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Rpt_Dez_Sx"
         Me.Text = "Rpt_Dez_Sx"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.Reportes_DiezmosSXBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Amor_VivienteDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.Amor_VivienteDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Reportes_DiezmosSXBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

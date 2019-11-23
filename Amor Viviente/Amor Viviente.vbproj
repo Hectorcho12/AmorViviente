@@ -203,6 +203,12 @@
     <Compile Include="Diezmos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Rpt_Dez_miem.Designer.vb">
+      <DependentUpon>Rpt_Dez_miem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez_miem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rpt_Dez_miembro.Designer.vb">
       <DependentUpon>Rpt_Dez_miembro.vb</DependentUpon>
     </Compile>
@@ -215,10 +221,28 @@
     <Compile Include="Rpt_Dez_miembro_Sx.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Rpt_Dez_miem_Sx.Designer.vb">
+      <DependentUpon>Rpt_Dez_miem_Sx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez_miem_Sx.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rpt_Dez_Sx.Designer.vb">
       <DependentUpon>Rpt_Dez_Sx.vb</DependentUpon>
     </Compile>
     <Compile Include="Rpt_Dez_Sx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Dez_Zona.Designer.vb">
+      <DependentUpon>Rpt_Dez_Zona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez_Zona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rpt_Dez_Zona_Sx.Designer.vb">
+      <DependentUpon>Rpt_Dez_Zona_Sx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_Dez_Zona_Sx.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Rpt_Egr.Designer.vb">
@@ -280,9 +304,11 @@
       <DependentUpon>Ofrendas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reporte_Ofrenda_Sx.rdlc" />
-    <EmbeddedResource Include="Report_Diezmos_miembro.rdlc" />
+    <EmbeddedResource Include="Report_Diezmos_Miembro.rdlc" />
+    <EmbeddedResource Include="Report_Diezmos_Zona.rdlc" />
     <EmbeddedResource Include="Report_Diezmo_miembro_Sx.rdlc" />
     <EmbeddedResource Include="Report_Diezmo_Sx.rdlc" />
+    <EmbeddedResource Include="Report_Diezmo_Zona_Sx.rdlc" />
     <EmbeddedResource Include="Report_Egresos.rdlc" />
     <EmbeddedResource Include="Report_Membresia.rdlc" />
     <EmbeddedResource Include="Report_Ofrenda.rdlc" />
@@ -314,14 +340,26 @@
       <DependentUpon>Diezmos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report_Diezmos.rdlc" />
+    <EmbeddedResource Include="Rpt_Dez_miem.resx">
+      <DependentUpon>Rpt_Dez_miem.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rpt_Dez_miembro.resx">
       <DependentUpon>Rpt_Dez_miembro.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rpt_Dez_miembro_Sx.resx">
       <DependentUpon>Rpt_Dez_miembro_Sx.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Dez_miem_Sx.resx">
+      <DependentUpon>Rpt_Dez_miem_Sx.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rpt_Dez_Sx.resx">
       <DependentUpon>Rpt_Dez_Sx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Dez_Zona.resx">
+      <DependentUpon>Rpt_Dez_Zona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rpt_Dez_Zona_Sx.resx">
+      <DependentUpon>Rpt_Dez_Zona_Sx.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rpt_Egr.resx">
       <DependentUpon>Rpt_Egr.vb</DependentUpon>

@@ -397,8 +397,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>Rpt_dez</DataSetName>
-        <Top>4.10958cm</Top>
-        <Left>1.65427cm</Left>
+        <Top>3.81325cm</Top>
+        <Left>0.79586cm</Left>
         <Height>1.30583cm</Height>
         <Width>14.97599cm</Width>
         <Style>
@@ -456,7 +456,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
         <Top>2.19921cm</Top>
-        <Left>7.71261cm</Left>
+        <Left>5.79239cm</Left>
         <Height>0.6cm</Height>
         <Width>5.24224cm</Width>
         <ZIndex>1</ZIndex>
@@ -564,9 +564,9 @@
       </Image>
       <Line Name="Line2">
         <Top>3.09562cm</Top>
-        <Left>1.25558cm</Left>
+        <Left>0.79586cm</Left>
         <Height>0cm</Height>
-        <Width>15.63926cm</Width>
+        <Width>14.97599cm</Width>
         <ZIndex>4</ZIndex>
         <Style>
           <Border>
@@ -577,14 +577,14 @@
         </Style>
       </Line>
     </ReportItems>
-    <Height>3.0625in</Height>
+    <Height>2.22083in</Height>
     <Style>
       <Border>
         <Style>None</Style>
       </Border>
     </Style>
   </Body>
-  <Width>7.0625in</Width>
+  <Width>6.40417in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
